@@ -78,9 +78,19 @@
 				</section>
 
 				<section>
+					<h2>Storage</h2>
+					<p>
+						Spectrum Scale (GPFS)
+					</p>
+					<p class="fragment">
+						Distributed high-performance filesystem
+					</p>
+				</section>
+
+				<section>
 					<h2>eMedLab "Service Philosophy"</h2>
 					<p class="fragment">
-						Project-based
+						Project-based, unlike traditional clusters
 					</p>
 					<p class="fragment">
 						Access allocated via project applications
@@ -95,15 +105,31 @@
 						In the future, custom VM images may be shared between projects
 					</aside>
 				</section>
+
+				<section>
+					<h2>Terminology</h2>
+					<p>
+						Instances...?<span class="fragment"> ...The same as virtual machines</span>
+					</p>
+					<p class="fragment">
+						Tenants/Projects...? <span class="fragment">Essentially the same thing</span>
+					</p>
+				</section>
 				<section>
 					<p>
-						eMedLab resources are not on the public internet by default
+						eMedLab resources are, by default, <em>not on the public internet</em>
 					</p>
 					<p class="fragment">
 						Access mediated by Cisco VPN
 					</p>
 					<p class="fragment">
-						This is how to manage VMs and connect to them
+						Manage instances and connect to them via the VPN
+					</p>
+					<p class="fragment">
+						Limited ability to provide publicly accessible instances
+					</p>
+					<p class="fragment">
+						Projects will need to request this facility
 					</p>
 						<aside class="notes"
 							For logins and to transfer data
@@ -116,7 +142,7 @@
 
 				<section>
 					<h2>In a future instalment...</h2>
-					<p class="fragment">
+					<p>
 						Command-line access to the REST API
 					</p>
 					<p class="fragment highlight-red">
